@@ -1,24 +1,25 @@
 
 .container {
     display: flex;
+    background-color: #e2d7fa;
     justify-content: center;
     align-items: center;
-    width: 900px; 
-    height: 500px;
-    border-radius: 25px;
+    width: 62.5em; 
+    height: 31.25em;
+    border-radius: 1.5em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .perfil {
     flex: 1;
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
 }
 
 .perfil img {
-    width: 230px;
-    height: 230px;
-    margin-bottom: 400px;
+    width: 14.3em;
+    height: 14.3em;
+    margin-bottom: 25em;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -26,29 +27,29 @@
 
 .informacoes {
     flex: 1;
-    margin-bottom: 90px;
+    margin-bottom: 5.6em;
 }
 
 .informacoes h2 {
-    font-size: 26px;
-    margin-bottom: 30px;
+    font-size: 1.6em;
+    margin-bottom: 1.8em;
 }
 
 form {
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 1.6;
 }
 
 label {
     display: block;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .imagem{
-    width: 55px;
-    height: 55px;
-    margin-top: 50px;
-    margin-right: 50px;
+    width: 3em;
+    height: 3em;
+    margin-top: 3.12em;
+    margin-right: 3.12em;
 }
 
 .imagem:hover {
@@ -56,27 +57,19 @@ label {
     transition: background-color 0.3s, transform 0.2s ease-in-out; 
   }
 
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        max-width: 90%;
-    }
-
-    .perfil, .informacoes {
-        flex: auto;
-        max-width: 100%;
-        padding: 10px;
-    }
-
-    .perfil {
-        margin-bottom: 20px;
-    }
-
-    .informacoes h2 {
-        font-size: 20px; 
-    }
-
-    form {
-        font-size: 14px;
-    }
-}
+.botao{
+    margin-top: 40.6em;
+    padding: 0.9em 3.7em;
+    font-size: 1em;
+    color: white;
+    background-color: #948dec;
+    border: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out; 
+  }
+  
+.botao:hover {
+    background-color: #c8bff6;
+    transform: scale(1.05); 
+  }
